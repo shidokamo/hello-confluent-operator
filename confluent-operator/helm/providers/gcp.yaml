@@ -9,7 +9,7 @@ global:
          ## If kubernetes is deployed in multi zone mode then specify availability-zones as appropriate
          ## If kubernetes is deployed in single availability zone then specify appropriate values
          zones:
-          - us-central1-a
+          - us-central1-f
     storage:
       ## https://kubernetes.io/docs/concepts/storage/storage-classes/#gce
       ##
