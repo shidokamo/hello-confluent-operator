@@ -16,4 +16,17 @@ wget https://platform-ops-bin.s3-us-west-1.amazonaws.com/operator/confluent-oper
 kubectl apply -f create-helm-service-account.yaml
 ```
 
+## デプロイする
+```
+make deploy
+```
 
+## 結果の確認
+```
+kubectl get pods -n operator
+```
+
+## CRD : Cusom Resource Definition の確認
+```
+kubectl get crd -n operator
+```
